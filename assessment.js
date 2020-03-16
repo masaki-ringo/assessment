@@ -41,10 +41,10 @@ assessmentButton.onclick = () => {
     anchor.setAttribute('data-text', result);
     anchor.innerText = 'Tweet #愛好家の一曲';
     tweetDivided.appendChild(anchor);
-
-    const script = document.createElement('script');
+    twttr.widgets.load();
+    /*const script = document.createElement('script');
     script.setAttribute('src', 'http://platform.twitter.com/widgets.js');
-    tweetDivided.appendChild(script);
+    tweetDivided.appendChild(script);*/
 };
 userNameInput.onkeydown = (event) => {
     if(event.key === 'Enter'){

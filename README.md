@@ -1,2 +1,2 @@
-# assessment
-あなたのいいところ診断ゲーム
+#assessment
+愛好家の一曲診断

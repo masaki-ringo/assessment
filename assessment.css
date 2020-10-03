@@ -1,6 +1,5 @@
 body{
-    background-color: #04a6e0;
-    color: #FDFFFF;
+    color:#333333;
     width: 500px;
     margin-right: auto;
     margin-left: auto;
@@ -11,6 +10,6 @@ button{
     background-color: #337AB7;
     border-style: none;
 }
-input{
+input{   
     height: 24px;
 }
